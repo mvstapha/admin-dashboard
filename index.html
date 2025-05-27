@@ -2,6 +2,9 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
@@ -10,7 +13,10 @@
 <body>
     <div class="full-container">
         <div class="leftside">
-
+            <div class="link">
+                <i class="fas dashboard fa-tachometer-alt"></i>
+                <p class="icon-text dashboard">Dashboard</p>
+            </div>
 
             <div class="link">
                 <i class="fas fa-home"></i>
@@ -42,7 +48,7 @@
                 <p class="icon-text">Communities</p>
             </div>
 
-            <div class="link">
+            <div class="link settings">
                 <i class="fas fa-cog"></i>
                 <p class="icon-text">Settings</p>
             </div>
@@ -56,12 +62,32 @@
                 <i class="fas fa-shield"></i>
                 <p class="icon-text">Privacy</p>
             </div>
+            <div class="log-out">
+                <button><i class="fas fa-sign-out-alt"></i>Logout</button>
+            </div>
+            
         </div>
     
     <!-------------------------------------->
     
-        <div class="righside">
-    
+        <div class="rightside">
+            <div class="rightside-up">
+                <div class="rightside-header">
+                    <div class="header-part1">
+                        <div class="search">
+                            <i class="fa fa-search"></i>
+                            <input type="text">
+                        </div>
+                        <div class="profile">
+                            <i class="fa fa-bell"></i>
+                        <p>Morgan Oakley</p>
+                        </div>
+                    </div>
+                    <div class="header-part2">
+                        
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </body>
